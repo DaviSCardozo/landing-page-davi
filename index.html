@@ -2,65 +2,42 @@
 <html lang="pt-BR">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Landing Page</title>
-
     <link rel="stylesheet" href="style.css">
-
-    <h1>Davi Cardozo</h1>
-
-    <p>Desenvolvedor Full Stack em formação</p>
-
-    <button id="btnSaibaMais">
-
-    Saiba Mais
-
-    </button>
-
 </head>
 
-    <body>
-
+<body>
     <header>
-        
-
+        <h1>Davi Cardozo</h1>
+        <p>Desenvolvedor Full Stack em formação</p>
+        <button id="btnSaibaMais">Saiba Mais</button>
     </header>
 
     <section>
         <h2>Sobre Mim</h2>
-        <p>
-        Sou estudante de Análise e Desenvolvimento de Sistemas,
-        apaixonado por programação e desenvolvimento web.
-        </p>
+        <p>Sou estudante de Análise e Desenvolvimento de Sistemas,
+        apaixonado por programação e desenvolvimento web.</p>
     </section>
+
+    <section>
         <h2>Contato</h2>
         <form>
-        <input type="text" placeholder="Nome">
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Mensagem"></textarea>
-        <button>
-        Enviar
-        </button>
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Mensagem"></textarea>
+            <button>Enviar</button>
         </form>
+    </section>
 
     <section>
+        <h2>Consultar CEP</h2>
         <input type="text" id="cep">
-        <button id="buscarCep">
-        Buscar CEP
-        </button>
-        <div id="resultado"></div>
+        <button id="buscarCep">Buscar CEP</button>
+        <div id="resultado"></div>        
     </section>
-
-    <section>
-
-    </section>
-
     <script src="script.js"></script>
-
 </body>
 
 </html>
