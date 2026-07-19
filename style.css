@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
-body{
-    font-family:Poppins,sans-serif;
-    margin:0;
-    background:#F5F7FA;
-    color:#333;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    line-height: 1.6;
+    overflow-x: hidden;
 }
 
 header{
@@ -12,6 +19,18 @@ header{
     color:white;
     padding:60px;
     text-align:center;
+}
+.tag {
+    display: inline-block;
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: var(--accent);
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    backdrop-filter: blur(4px);
 }
 button{
     background:#3B82F6;
