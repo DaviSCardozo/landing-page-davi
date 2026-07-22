@@ -5,43 +5,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davi Cardozo | Desenvolvedor Full Stack Jr.</title>
+    <meta name="description"
+        content="Portfólio profissional de Davi Cardozo - Desenvolvedor Full Stack Júnior em formação pelo Bootcamp +praTi.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <span class="tag">🚀 Portfólio & Transição com Propósito</span>
-        <h1>Davi Cardozo</h1>
-        <p>Engenheiro & Desenvolvedor Full Stack Júnior em Formação (+praTi & Codifica)</p>
-        <button id="btnSaibaMais">Saiba Mais</button>
-        
+    <header class="cabecalho" id="inicio">
+        <nav class="menu">
+            <a href="#inicio" class="logo-link">Davi Cardozo</a>
+
+            <!-- Botão Hamburguer para Telas Menores -->
+            <button id="btnHamburguer" class="hamburguer" aria-label="Abrir Menu de Navegação">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul id="listaMenu" class="lista-menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#consulta-cep">CEP</a></li>
+            </ul>
+        </nav>
+        <div class="hero-container">
+            <div class="texto-cabecalho">
+                <span class="tag">🚀 Portfólio & Transição com Propósito</span>
+                <h1>Davi Cardozo</h1>
+                <p class="slogan">Projetista Mecânico & Desenvolvedor Full Stack Júnior em Formação (+praTi & Codifica)
+                </p>
+
+                <div class="hero-acoes">
+                    <button id="btnSaibaMais" class="botao botao-principal">Saiba Mais</button>
+                    <a href="#contato" class="botao botao-outline">Entre em Contato</a>
+                </div>
+
+                <div class="redes-cabecalho">
+                    <a href="https://www.linkedin.com/in/davi-cardozo/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                            alt="LinkedIn">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/DaviSCardozo" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                            alt="GitHub">
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="perfil-hero">
+                <div class="moldura-foto">
+                    <img src="img/perfil-trabalho.png" alt="Davi Cardozo - Engenheiro de Soluções e Desenvolvedor"
+                        class="foto-perfil">
+                    <div class="badge-status">
+                        <span class="ponto-verde"></span> Foco em Soluções & Tecnologia
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section>
-        <h2>Sobre Mim</h2>
-        <p>Conheça um pouco da minha trajetória e valores</p>
-        <p>Sou graduado em <strong>Análise e Desenvolvimento de Sistemas</strong>, com sólida bagagem em engenharia e forte paixão por transformar dados em melhores decisões e código limpo.</p>
-        <p>
-        Atualmente estou em transição com propósito, focando em <strong>Desenvolvimento Web Full Stack</strong> pelo prestigiado programa de formação <strong>+praTi & Codifica</strong>.
-        </p>
-    </section>
+    <main>
+        <section class="secao" id="sobre">
+            <div class="titulo-secao">
+                <h2>Sobre Mim</h2>
+                <p class="subtitulo-secao">Conheça um pouco da minha trajetória e valores</p>
+            </div>
 
-    <section>
-        <h2>Contato</h2>
-        <form>
-            <input type="text" placeholder="Nome">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Mensagem"></textarea>
-            <button>Enviar</button>
-        </form>
-    </section>
+            <div class="grid-sobre">
+                <div class="card-sobre-texto">
+                    <p>
+                        Sou graduado em <strong>Análise e Desenvolvimento de Sistemas</strong>, com sólida bagagem em
+                        engenharia mecânica e forte paixão por transformar dados em melhores decisões e código limpo.
+                    </p>
+                    <p>
+                        Atualmente estou em transição com propósito, focando em <strong>Desenvolvimento Web Full
+                            Stack</strong> pelo prestigiado programa de formação <strong>+praTi & Codifica</strong>.
+                    </p>
 
-    <section>
-        <h2>Consultar CEP</h2>
-        <input type="text" id="cep">
-        <button id="buscarCep">Buscar CEP</button>
-        <div id="resultado"></div>        
-    </section>
+                    <ul class="lista-pilares">
+                        <li>⚡ <strong>HTML, CSS & JavaScript:</strong> Criação de interfaces modernas, dinâmicas e
+                            responsivas.</li>
+                        <li>🌐 <strong>Consumo de APIs:</strong> Integração assíncrona com REST APIs (ex: ViaCEP).</li>
+                        <li>🛠️ <strong>Versionamento:</strong> Controle de fluxo com Git, GitHub e boas práticas de
+                            commits.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao secao-cinza" id="habilidades">
+            <div class="titulo-secao">
+                <h2>Tecnologias & Ferramentas</h2>
+                <p class="subtitulo-secao">Stack em constante evolução e aperfeiçoamento</p>
+            </div>
+
+            <div class="tecnologias">
+                <div class="card-tecnologia">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    <h3>HTML5</h3>
+                    <p>Estrutura semântica e acessível para a web</p>
+                </div>
+                <div class="card-tecnologia">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    <h3>CSS3</h3>
+                    <p>Estilização moderna, Flexbox, Grid e Responsividade</p>
+                </div>
+                <div class="card-tecnologia">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>Lógica dinâmica, manipulação do DOM e Fetch API</p>
+                </div>
+                <div class="card-tecnologia">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <h3>Git & GitHub</h3>
+                    <p>Versionamento de código, branches e Pull Requests</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao secao-cinza" id="contato">
+            <div class="titulo-secao">
+                <h2>Fale Comigo</h2>
+                <p class="subtitulo-secao">Envie uma mensagem ou proposta de colaboração</p>
+            </div>
+
+            <form id="formContato" class="formulario" action="https://formsubmit.co/dev.davicardozo@gmail.com"
+                method="POST">
+                <div class="campo-grupo">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="name" placeholder="Seu nome" required>
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="message" rows="4" placeholder="Como posso ajudar você?"
+                        required></textarea>
+                </div>
+
+                <p id="msgFormulario" class="mensagem-status"></p>
+
+                <button type="submit" class="botao botao-principal btn-block">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <section class="secao" id="consulta-cep">
+            <div class="titulo-secao">
+                <h2>Consulta de CEP (API ViaCEP)</h2>
+                <p class="subtitulo-secao">Demonstração prática de requisição assíncrona utilizando Fetch API</p>
+            </div>
+
+            <div class="container-cep">
+                <form id="formCep" class="formulario formulario-cep">
+                    <div class="campo-cep-wrapper">
+                        <label for="cep">Informe seu CEP</label>
+                        <div class="input-com-botao">
+                            <input type="text" id="cep" placeholder="90010-000" maxlength="9">
+                            <button type="submit" id="buscarCep" class="botao botao-escuro">Buscar CEP</button>
+                        </div>
+                    </div>
+                </form>
+
+                <p id="msgCep" class="mensagem-status"></p>
+                <div id="resultado"></div>
+            </div>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 
